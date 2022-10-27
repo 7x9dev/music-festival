@@ -127,6 +127,7 @@ section {
    border: 1px solid #fff;
    padding: 50px;
    gap: 60px;
+   width: 846px;
 }
 .counter {
    text-align: center;
