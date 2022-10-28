@@ -74,10 +74,10 @@ h6 {
 }
 @keyframes float {
    0% {
-      transform: translatey(0px);
+      transform: translateY(0px);
    }
    50% {
-      transform: translatey(-10px);
+      transform: translateY(-10px);
    }
 }
 
@@ -135,6 +135,18 @@ section {
 .counter {
    text-align: center;
 }
+footer {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   margin-top: 15px;
+   font-size: 20px;
+}
+.webLink {
+   color: #fff;
+   text-underline-offset: 5px;
+}
+
 @media all and (max-width: 1920px) {
    h1 {
       font-size: 140px;
@@ -163,8 +175,12 @@ section {
       margin-top: 50px;
    }
    .endTitle {
-   font-size: 72px;
-}
+      font-size: 72px;
+   }
+   footer {
+      font-size: 16px;
+      margin-top: 8px;
+   }
 }
 @media all and (max-width: 1280px) {
    h1 {
@@ -188,8 +204,8 @@ section {
       width: 746px;
    }
    .endTitle {
-   font-size: 62px;
-}
+      font-size: 62px;
+   }
 }
 @media all and (max-width: 1024px) {
    h1 {
@@ -217,8 +233,21 @@ section {
    }
    .container {
       width: 546px;
-      margin-top: 25px;
+      margin-top: 20px;
    }
    .endTitle {
-   font-size: 52px;
+      font-size: 52px;
+   }
+   footer {
+      margin-top: 5px;
+      font-size: 12px;
+   }
+   .webLink {
+      text-underline-offset: 3px;
+   }
+}
+@media all and (max-width: 920px) {
+   body {
+      background-position: center;
+   }
 }
