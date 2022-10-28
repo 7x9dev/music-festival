@@ -14,9 +14,10 @@ btn.addEventListener("click", function () {
 });
 
 function countdown() {
-   const festivalDate = new Date("October 19, 2023 00:00");
+   const eventDate = new Date("October 19, 2023 00:00");
+   //const eventDate = new Date("October 28, 2022 12:00");
    const now = new Date();
-   const timeLeft = festivalDate - now;
+   const timeLeft = eventDate - now;
 
    const msInSec = 1000;
    const msInMin = 60 * 1000;
@@ -41,6 +42,15 @@ function countdown() {
       document.querySelector(".min").textContent = 0;
       document.querySelector(".sec").textContent = 0;
       clearInterval(timerID);
+      eventIsOver();
    }
 }
 let timerID = setInterval(countdown, 1000);
+
+function eventIsOver() {
+   const heading = document.querySelector("h1");
+   heading.textContent = "Event is over";
+   heading.classList.add("endTitle");
+   const subHeading = document.querySelector("h3");
+   subHeading.textContent = "See you next year!";
+}

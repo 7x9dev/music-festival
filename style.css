@@ -23,7 +23,7 @@ h6 {
    margin: 0;
 }
 h1 {
-   font-size: 140px;
+   font-size: 200px;
    margin: 40px 0 30px 0;
    background: linear-gradient(
       90deg,
@@ -42,20 +42,23 @@ h1 {
       background-position: 200% center;
    }
 }
+.endTitle {
+   font-size: 104px;
+}
 h2 {
-   font-size: 74px;
-   margin-top: 10px;
+   font-size: 105px;
+   margin-top: 20px;
 }
 h3 {
-   font-size: 40px;
+   font-size: 58px;
 }
 h6 {
-   font-size: 15px;
-   margin-top: 25px;
+   font-size: 21px;
+   margin-top: 35px;
 }
 .date {
-   font-size: 18px;
-   margin-top: 25px;
+   font-size: 26px;
+   margin-top: 35px;
 }
 
 .play {
@@ -67,7 +70,7 @@ h6 {
 .logo {
    transform: translatey(0px);
    animation: float 4s ease infinite;
-   margin-top: 70px;
+   margin-top: 160px;
 }
 @keyframes float {
    0% {
@@ -123,12 +126,99 @@ section {
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
-   margin-top: 50px;
+   margin-top: 70px;
    border: 1px solid #fff;
    padding: 50px;
    gap: 60px;
-   width: 846px;
+   width: 1246px;
 }
 .counter {
    text-align: center;
+}
+@media all and (max-width: 1920px) {
+   h1 {
+      font-size: 140px;
+   }
+   h2 {
+      font-size: 74px;
+      margin-top: 10px;
+   }
+   h3 {
+      font-size: 40px;
+   }
+   h6 {
+      font-size: 15px;
+      margin-top: 25px;
+   }
+   .date {
+      font-size: 18px;
+      margin-top: 25px;
+   }
+   .logo {
+      width: 240px;
+      margin-top: 70px;
+   }
+   .container {
+      width: 846px;
+      margin-top: 50px;
+   }
+   .endTitle {
+   font-size: 72px;
+}
+}
+@media all and (max-width: 1280px) {
+   h1 {
+      font-size: 120px;
+   }
+   h2 {
+      font-size: 54px;
+   }
+   h3 {
+      font-size: 36px;
+   }
+   h6 {
+      font-size: 14px;
+   }
+   .logo {
+      width: 180px;
+      margin-top: 50px;
+   }
+   .container {
+      padding: 30px;
+      width: 746px;
+   }
+   .endTitle {
+   font-size: 62px;
+}
+}
+@media all and (max-width: 1024px) {
+   h1 {
+      font-size: 90px;
+      margin: 25px 0 20px 0;
+   }
+   h2 {
+      font-size: 36px;
+      margin-top: 5px;
+   }
+   h3 {
+      font-size: 28px;
+   }
+   h6 {
+      font-size: 12px;
+      margin-top: 16px;
+   }
+   .date {
+      font-size: 15px;
+      margin-top: 15px;
+   }
+   .logo {
+      width: 160px;
+      margin-top: 40px;
+   }
+   .container {
+      width: 546px;
+      margin-top: 25px;
+   }
+   .endTitle {
+   font-size: 52px;
 }
