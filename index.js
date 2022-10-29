@@ -15,7 +15,6 @@ btn.addEventListener("click", function () {
 
 function countdown() {
    const eventDate = new Date("October 19, 2023 00:00");
-   //const eventDate = new Date("October 28, 2022 12:00");
    const now = new Date();
    const timeLeft = eventDate - now;
 
