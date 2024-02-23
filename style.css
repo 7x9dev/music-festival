@@ -7,15 +7,19 @@ body {
    color: #fff;
    font-family: "Trispace", sans-serif;
    font-weight: 400;
+   font-optical-sizing: auto;
+   font-style: normal;
+   font-variation-settings: "wdth" 100;
    margin: 0;
 }
 h1,
 h2,
 h3,
 h6 {
-   font-family: "Press Start 2P", cursive;
+   font-family: "Press Start 2P", system-ui;
    text-transform: uppercase;
    font-weight: 400;
+   font-style: normal;
 }
 h2,
 h3,
